@@ -1,0 +1,7 @@
+1.0_to_2.0_report.html:2538: element a: validity error : ID Headers already defined
+<a name='Headers'></a><h2>Header Files <span class='gray'>&nbsp;304&nbsp;</span>
+                 ^
+1.0_to_2.0_report.html:2846: element a: validity error : ID Libs already defined
+<a name='Libs'></a><h2>Libraries <span class='gray'>&nbsp;1263&nbsp;</span></h2>
+              ^
+XPath set is empty

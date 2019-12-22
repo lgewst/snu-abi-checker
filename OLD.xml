@@ -1,0 +1,25 @@
+<version>
+	2.0
+</version>
+
+<headers>
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/wayland
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/pixman
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/icu
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/libxkbcommon
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/libexif
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/dbus
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/libcap
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/elfutils
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/nspr
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/curl
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/webos-wayland-extensions
+</headers>
+
+<libs>
+	./installed/webos/2.0/build-webos-2.0/BUILD/sysroots-components/raspberrypi4/
+</libs>
+
+<gcc_options>
+</gcc_options>
+
