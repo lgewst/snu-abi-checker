@@ -30,7 +30,7 @@ newVersion="$(basename ${newVersion})"
 if [ "$oldVersion" != "$newVersion" ]; then
     echo "new version found!"
     echo "remove old build file"
-#sudo rm -rf "$(ls -trd ./installed/webos/*/ | head -1)"
+	sudo rm -rf "$(ls -trd ./installed/webos/*/ | head -1)"
     
     echo "extract new release"
     dir="./src/webos/$newVersion"
@@ -104,11 +104,9 @@ then
     if [ ! -f "$reportName" ]; then
         cd ~
 		sudo cp $tmp"compat_report.html" $reportPath$reportName
+		#create Jiraissue
+		sudo ./jiraissue/createIssue.sh $reportPath $reportName
     fi
-
-    #Create JIRA issue
-    cd ~
-	sudo ./jiraissue/createIssue.sh $reportPath $reportName
     exit 2
 else
     echo "fail"
